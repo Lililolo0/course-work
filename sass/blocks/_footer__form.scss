@@ -1,0 +1,42 @@
+.footer__form {
+  display: flex;
+  margin-top: 47px;
+
+  input {
+    width: 230px;
+    height: 55px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #C6CBCD;
+    border: 1px solid #C6CBCD;
+  }
+
+
+  &:hover {
+    border: 1px solid #87D2C4;
+  }
+
+  &:active {
+    border: 1px solid #5C958A;
+  }
+
+  button {
+    width: 125px;
+    height: 55px;
+    background-color: #95E1D3;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+
+    &:hover {
+      background-color: #87D2C4;
+    }
+
+    &:active {
+      background-color:  #5C958A;
+    }
+  }
+}
