@@ -1,0 +1,15 @@
+.footer__followers {
+  text-transform: uppercase;
+  color: #2D3033;
+
+  .amount {
+    font-weight: 700;
+    font-size: 36px;
+  }
+
+  .followers{
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+  }
+}

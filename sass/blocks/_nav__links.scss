@@ -1,0 +1,27 @@
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 60px;
+
+    &:hover {
+      color: #F4BF87;
+      border-bottom: 1px solid #F4BF87;
+      padding-bottom: 7px;
+    }
+
+    &:active {
+      color: #F4BF87;
+      border-bottom: none;
+    }
+  }
+}
