@@ -1,8 +1,8 @@
-.team__card {
+.resume {
   width: 32%;
   position: relative;
 
-  .team_img {
+  .resume_img {
     position: relative;
     width: 100%;
 
@@ -24,7 +24,7 @@
       opacity: 1;
     }
 
-    .team_item {
+    .resume_item {
       overflow: hidden;
 
       img {
@@ -35,11 +35,26 @@
   }
 
 
-  .team__info {
+  .resume__info {
+    text-align: center;
+    text-transform: uppercase;
+    color: #2D3033;
 
-    .team__name {}
 
-    .team__position {}
+    .resume__name {
+      padding-top: 28px;
+      padding-bottom: 28px;
+      font-weight: 700;
+      font-size: 24px;
+
+    }
+
+    .resume__position {
+      font-weight: 400;
+      font-size: 18px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
   }
 
 }

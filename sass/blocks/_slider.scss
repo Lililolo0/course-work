@@ -1,4 +1,31 @@
 .slider {
   display: flex;
   justify-content: space-between;
+
+  .slider__item  {
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 23%;
+    color: #F9EFCF;
+    border-top: 4px solid #F9EFCF;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    text-decoration: none;
+
+    &:hover {
+      color: white;
+      border-top: 4px solid white;
+    }
+
+    &:active {
+      color: #E4BE8D;
+      border-top: 4px solid #E4BE8D;
+    }
+  }
+
+  .slider__num {
+    font-weight: 700;
+    font-size: 36px;
+  }
 }

@@ -1,0 +1,32 @@
+.header__box {
+
+    .uptitle {
+      color: white;
+      font-weight: 400;
+      font-size: 64px;
+      text-align: center;
+    }
+
+    .title {
+      max-width: 1170px;
+      padding-top: 29px;
+      padding-bottom: 44px;
+      text-align: center;
+    }
+
+    .header__separator {
+      margin-top: 20px;
+      border-color: #fff;
+    }
+
+    .header__button-primary {
+      margin-top: 74px;
+      margin-bottom: 116px;
+      display: flex;
+      justify-content: center;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }

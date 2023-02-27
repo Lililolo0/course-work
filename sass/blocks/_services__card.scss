@@ -1,7 +1,35 @@
-.services__card {
+.card {
   width: calc(33.3% - 30px);
   margin-right: 30px;
   padding-left: 90px;
   margin-bottom: 30px;
   position: relative;
+
+
+  // слетело позиционирование absolut!!!
+  .card__icon {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .card___headline {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #2D3033;
+    text-transform: uppercase;
+  }
+
+  .card___content {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    color: #2D3033;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
 }

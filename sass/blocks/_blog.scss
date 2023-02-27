@@ -1,0 +1,48 @@
+.blog {
+  .blog__header {
+    height: 100px;
+    padding-top: 41px;
+    color: #2D3033;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+.blog__article {
+
+  .blog__item {
+    position: relative;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+    .blog__img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100;
+
+      img {
+        overflow: hidden;
+      }
+    }
+  }
+
+  .blog__title {
+    padding-left: 200px;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2D3033;
+  }
+
+
+  .blog__date {
+    padding-left: 200px;
+    margin-bottom: 32px;
+    padding-top: 13px;
+  }
+
+
+}
+}

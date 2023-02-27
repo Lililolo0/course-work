@@ -9,83 +9,40 @@
 //header
 @import "../sass/blocks/header";
 @import "../sass/blocks/nav";
-@import "../sass/blocks/nav__logo.scss";
-@import "../sass/blocks/nav__links";
-@import "../sass/blocks/nav__icons";
 @import "../sass/blocks/header__box";
-@import "../sass/blocks/header__title";
-@import "../sass/blocks/header__separator";
-@import "../sass/blocks/header__button-primary";
 @import "../sass/blocks/slider";
-@import "../sass/blocks/slider__item";
+
 //story
 @import "../sass/blocks/story";
-@import "../sass/blocks/story__uptitle";
-@import "../sass/blocks/story__title";
-@import "../sass/blocks/story__separator";
-@import "../sass/blocks/story__content";
+@import "../sass/blocks/story__overhead";
 @import "../sass/blocks/story__images";
-@import "../sass/blocks/story__item";
-@import "../sass/blocks/story__img";
-@import "../sass/blocks/story__link";
-@import "../sass/blocks/story__icon";
-@import "../sass/blocks/story__team";
 @import "../sass/blocks/statistics";
 @import "../sass/blocks/result";
-@import "../sass/blocks/result__item";
-@import "../sass/blocks/result__number";
-@import "../sass/blocks/result__text";
+
 //services
 @import "../sass/blocks/services";
-@import "../sass/blocks/services__uptitle";
-@import "../sass/blocks/services__title";
-@import "../sass/blocks/services__separator";
+@import "../sass/blocks/services__overhead";
 @import "../sass/blocks/services__box";
 @import "../sass/blocks/services__card";
-@import "../sass/blocks/services__icon";
-@import "../sass/blocks/services__headline";
-@import "../sass/blocks/services__content";
+
 //team
 @import "../sass/blocks/team";
-@import "../sass/blocks/team__uptitle";
-@import "../sass/blocks/team__title";
-@import "../sass/blocks/team__separator";
-@import "../sass/blocks/team__content";
+@import "../sass/blocks/team__overhead";
 @import "../sass/blocks/team__box";
-@import "../sass/blocks/team__card";
-
+@import "../sass/blocks/resume";
+@import "../sass/blocks/team__icons";
 
 //work
 @import "../sass/blocks/work";
-@import "../sass/blocks/work__uptitle";
-@import "../sass/blocks/work__title";
-@import "./blocks/work__separator";
-@import "../sass/blocks/work__content";
+@import "../sass/blocks/work__overhead";
 @import "../sass/blocks/work__box";
-@import "../sass/blocks/work__inner";
-@import "../sass/blocks/work__img";
+
 //footer
 @import "../sass/blocks/footer__header";
 @import "../sass/blocks/footer__box";
-@import "../sass/blocks/footer__col";
-
-//
-@import "../sass/blocks/footer__content";
-@import "../sass/blocks/footer__logo";
-@import "../sass/blocks/footer__text";
-@import "../sass/blocks/footer__social";
-@import "../sass/blocks/footer__followers";
-@import "../sass/blocks/footer__icons";
-@import "../sass/blocks/footer__form";
-//
-@import "../sass/blocks/footer__blog";
+@import "../sass/blocks/sotial";
+@import "../sass/blocks/sotial__network";
+@import "../sass/blocks/sotial__form";
 @import "../sass/blocks/blog";
-@import "../sass/blocks/blog__header";
-@import "../sass/blocks/blog__article";
-@import "../sass/blocks/blog__item";
-@import "../sass/blocks/blog__img";
-@import "../sass/blocks/blog__title";
-@import "../sass/blocks/blog__date";
-//
 @import "../sass/blocks/inst";
 @import "../sass/blocks/footer_copyright";
