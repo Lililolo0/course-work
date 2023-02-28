@@ -4,4 +4,12 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%);
+
+  @media (max-width: 1024px) {
+    width: 148px;
+    }
+
+    @media (max-width: 720px) {
+      width: 134px;
+    }
 }

@@ -10,4 +10,14 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+
+  @media (max-width: 1024px) {
+    max-width: 990px;
+  }
+
+  @media (max-width: 720px) {
+    max-width: 288px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }

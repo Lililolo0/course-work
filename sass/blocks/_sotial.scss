@@ -6,14 +6,46 @@
     color: #C6CBCD;
     margin-top: 26px;
 
+    @media (max-width: 1024px) {
+      font-size: 14px;
+      margin-top: 52px;
+    }
+
+    @media (max-width: 720px) {
+      text-align: center;
+      position: relative;
+    }
+
     .sotial__logo {
       width: 140px;
       height: 38px;
       margin-bottom: 26px;
-      margin-top: 33px;
+
+
+      @media (max-width: 1024px) {
+        margin-top: 41px;
+      }
+
+      @media (max-width: 720px) {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+      }
     }
-    .sotial__text {
-      width: 100%;
+
+    img {
+      width: 95px;
+      height: 26px;
+    }
+  }
+
+  .sotial__text {
+    width: 100%;
+
+    @media (max-width: 1024px) {}
+
+    @media (max-width: 720px) {
+      padding-top: 80px;
     }
   }
 }

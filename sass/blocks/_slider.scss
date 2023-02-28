@@ -13,6 +13,16 @@
     padding-bottom: 34px;
     text-decoration: none;
 
+    @media (max-width: 1024px) {
+      padding-top: 27px;
+      padding-bottom: 27px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 720px) {
+      font-size: 0px;
+    }
+
     &:hover {
       color: white;
       border-top: 4px solid white;
@@ -27,5 +37,13 @@
   .slider__num {
     font-weight: 700;
     font-size: 36px;
+
+    @media (max-width: 1024px) {
+    font-size: 24px;
+    }
+
+    @media (max-width: 720px) {
+    display: none;
+    }
   }
 }

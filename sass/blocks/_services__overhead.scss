@@ -1,18 +1,44 @@
 .services__overhead {
 
-.services__uptitle {
-  text-align: center;
-  height: 80px;
-}
+  .services__uptitle {
+    text-align: center;
+    height: 80px;
 
-.services__title {
-  text-align: center;
-  height: 81px;
-  margin-bottom: 24px;
-}
+    @media (max-width: 1024px) {
+      padding-top: 22px;
+      padding-bottom: 22px;
+    }
 
-.services__separator {
+    @media (max-width: 720px) {
+      padding-top: 22px;
+      padding-bottom: 22px;
+    }
+  }
 
-}
+  .services__title {
+    text-align: center;
+    height: 81px;
+    margin-bottom: 24px;
 
+    @media (max-width: 1024px) {
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+
+    @media (max-width: 720px) {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+
+  .services__separator {
+
+    @media (max-width: 1024px) {
+      margin-top: 20px;
+    }
+
+    @media (max-width: 720px) {
+      margin-top: 20px;
+    }
+  }
 }

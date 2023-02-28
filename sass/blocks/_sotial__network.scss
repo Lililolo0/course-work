@@ -7,17 +7,43 @@
     padding-bottom: 20px;
     border-bottom: 1px solid #C6CBCD;
 
+    @media (max-width: 1024px) {
+      padding-bottom: 13px;
+    }
+
+    @media (max-width: 720px) {
+      text-align: center;
+      padding-bottom: 14px;
+    }
+
     .amount {
       font-weight: 700;
       font-size: 36px;
+
+      @media (max-width: 1024px) {
+        font-size: 24px;
+      }
+
+      @media (max-width: 720px) {
+        font-size: 24px;
+      }
     }
 
     .followers {
       font-weight: 400;
       font-size: 18px;
       font-style: italic;
+
+      @media (max-width: 1024px) {
+        font-size: 14px;
+      }
+
+      @media (max-width: 720px) {
+        font-size: 14px;
+      }
     }
   }
+
   .sotial__icons {
     display: flex;
     justify-content: space-between;
@@ -30,13 +56,28 @@
       font-size: 13px;
       font-style: italic;
       color: #C6CBCD;
+
+      @media (max-width: 1024px) {
+        font-size: 12px;
+      }
+
+      @media (max-width: 720px) {
+        font-size: 12px;
+      }
     }
 
     .sotial__icon {
       font-size: 24px;
-      color: #95E1D3;
+      color: $main-theme;
       text-align: right;
+
+      @media (max-width: 1024px) {
+        font-size: 16px;
+      }
+
+      @media (max-width: 720px) {
+        font-size: 16px;
+      }
     }
   }
-
 }

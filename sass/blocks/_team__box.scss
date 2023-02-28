@@ -2,4 +2,12 @@
   display: flex;
   justify-content: center;
   gap: 30px;
+
+
+  @media (max-width: 1024px) {
+    flex-wrap: nowrap;
+  }
+  @media (max-width: 720px) {
+    flex-wrap: wrap;
+  }
 }

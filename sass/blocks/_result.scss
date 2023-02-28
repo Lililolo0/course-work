@@ -3,6 +3,14 @@
   justify-content: center;
   text-align: center;
 
+  @media (max-width: 1024px) {
+    flex-wrap: nowrap;
+  }
+
+  @media (max-width: 720px) {
+    flex-wrap: wrap;
+  }
+
   .result__item {
     border: 1px solid white;
     width: calc(20% - 1px);
@@ -11,10 +19,29 @@
     justify-content: center;
     flex-direction: column;
 
+    @media (max-width: 1024px) {
+      height: 124px;
+    }
+
+    @media (max-width: 720px) {
+      width: calc(50% - 1px);
+      border-right: none;
+      border-left: none;
+      border-top: none;
+    }
+
     .result__number {
       font-weight: 700;
       font-size: 64px;
       color: white;
+
+      @media (max-width: 1024px) {
+        font-size: 48px;
+      }
+
+      @media (max-width: 720px) {
+        font-size: 48px;
+      }
     }
 
     .result__text {
@@ -22,6 +49,15 @@
       font-size: 24px;
       color: white;
       margin-top: 14px;
+
+      @media (max-width: 1024px) {
+        font-size: 24px;
+      }
+
+      @media (max-width: 720px) {
+        font-weight: 500;
+        font-size: 20px;
+      }
     }
   }
 }

@@ -1,10 +1,17 @@
 .footer__box {
-display: grid;
-gap: 30px;
-grid-template-columns: 31% 40% 23%;
-margin-bottom: 30px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 31% 40% 23%;
+  margin-bottom: 30px;
 
-.footer__col {
-}
+  @media (max-width: 1024px) {
+    gap: 20px;
+  }
 
+  @media (max-width: 720px) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 0;
+  }
 }

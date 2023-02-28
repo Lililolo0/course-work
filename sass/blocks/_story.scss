@@ -1,4 +1,14 @@
 .story {
   margin-top: 42px;
   margin-bottom: 108px;
+
+  @media (max-width: 1024px) {
+    margin-top: 29px;
+    margin-bottom: 59px;
+  }
+
+  @media (max-width: 720px) {
+    margin-top: 29px;
+    margin-bottom: 59px;
+  }
 }

@@ -1,4 +1,14 @@
 .services {
   margin-top: 42px;
   margin-bottom: 91px;
+
+  @media (max-width: 1024px) {
+    margin-top: 29px;
+    margin-bottom: 58px;
+  }
+
+  @media (max-width: 720px) {
+    margin-top: 29px;
+    margin-bottom: 58px;
+  }
 }

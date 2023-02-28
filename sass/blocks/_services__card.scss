@@ -5,14 +5,34 @@
   margin-bottom: 30px;
   position: relative;
 
+  @media (max-width: 1024px) {
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
 
-  // слетело позиционирование absolut!!!
+  @media (max-width: 720px) {
+    width: 100%;
+  }
+
   .card__icon {
-    width: 70px;
-    height: 70px;
     position: absolute;
     left: 0;
     top: 0;
+
+    img {
+      width: 70px;
+      height: 70px;
+
+      @media (max-width: 1024px) {
+        width: 59px;
+        height: 59px;
+      }
+
+      @media (max-width: 720px) {
+        width: 57px;
+        height: 57px;
+      }
+    }
   }
 
   .card___headline {
@@ -22,6 +42,14 @@
     font-size: 24px;
     color: #2D3033;
     text-transform: uppercase;
+
+    @media (max-width: 1024px) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 720px) {
+      font-size: 18px;
+    }
   }
 
   .card___content {
@@ -30,6 +58,13 @@
     color: #2D3033;
     font-weight: 400;
     font-size: 18px;
-  }
 
+    @media (max-width: 1024px) {
+      font-size: 14px;
+    }
+
+    @media (max-width: 720px) {
+      font-size: 14px;
+    }
+  }
 }
