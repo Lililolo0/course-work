@@ -1,74 +1,137 @@
-.resume {
-  width: 32%;
-  position: relative;
+.team__col {
+  width: calc(33% - 15px);
 
   @media (max-width: 1024px) {
-    width: 32%;
+    width: calc(33% - 10px);
   }
+
   @media (max-width: 720px) {
     width: 100%;
   }
 
-  .resume_img {
+  .resume {
     position: relative;
-    width: 100%;
 
-    @media (max-width: 1024px) {
+    .resume__item {
+      position: relative;
 
+      &:before {
+        position: absolute;
+        top: -16px;
+        left: -16px;
+        width: 100%;
+        height: 100%;
+        background: $overlap;
+        opacity: 0;
+        transition: all 0.4s ease;
+        content: "";
+        text-transform: uppercase;
+        text-align: center;
+
+        @media (max-width: 1024px) {
+          top: -3px;
+          left: -3px;
+        }
+
+        @media (max-width: 720px) {
+          display: none;
+        }
+      }
+
+      &:hover::before {
+        opacity: 1;
+      }
+
+      .resume__img {
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
     }
-    @media (max-width: 720px) {
 
-    }
-
-    &:before {
+    .resume__links {
       position: absolute;
-      top: -16px;
-      left: -16px;
-      width: 100%;
-      height: 100%;
-      background: $overlap;
-      opacity: 0;
+      left: calc(50% - 16px);
+      top: calc(50% - 50px);
+      transform: translate(-50%, -50%);
       transition: all 0.4s ease;
-      content: "";
-      text-transform: uppercase;
-      text-align: center;
-    }
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      opacity: 0;
 
-    &:hover::before {
-      opacity: 1;
-    }
+      @media (max-width: 1024px) {
+      }
 
-    .resume_item {
-      overflow: hidden;
+      @media (max-width: 720px) {
+        transform: translate(0, 0);
+        right: 0;
+        top: 66%;
+      }
 
       img {
-      width: 100px;
-      height: 100px;
+        width: 42px;
+        height: 42px;
+
+        @media (max-width: 1024px) {
+          width: 35px;
+          height: 35px;
+        }
+
+        @media (max-width: 720px) {
+          width: 35px;
+          height: 35px;
+        }
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    .resume__info {
+      text-align: center;
+      text-transform: uppercase;
+      color: #2D3033;
+
+      @media (max-width: 1024px) {}
+
+      @media (max-width: 720px) {
+        margin-bottom: 31px;
+      }
+
+      .resume__name {
+        padding-top: 28px;
+        padding-bottom: 28px;
+        font-weight: 700;
+        font-size: 24px;
+
+        @media (max-width: 1024px) {
+          font-size: 18px;
+        }
+
+        @media (max-width: 720px) {
+          font-size: 18px;
+        }
+      }
+
+      .resume__position {
+        font-weight: 400;
+        font-size: 18px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+        @media (max-width: 1024px) {
+          font-size: 14px;
+        }
+
+        @media (max-width: 720px) {
+          font-size: 14px;
+        }
       }
     }
   }
-
-
-  .resume__info {
-    text-align: center;
-    text-transform: uppercase;
-    color: #2D3033;
-
-
-    .resume__name {
-      padding-top: 28px;
-      padding-bottom: 28px;
-      font-weight: 700;
-      font-size: 24px;
-
-    }
-
-    .resume__position {
-      font-weight: 400;
-      font-size: 18px;
-      padding-top: 8px;
-      padding-bottom: 8px;
-    }
-  }
-
 }

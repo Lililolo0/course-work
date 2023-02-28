@@ -1,8 +1,6 @@
 .team__box {
   display: flex;
-  justify-content: center;
-  gap: 30px;
-
+  justify-content: space-between;
 
   @media (max-width: 1024px) {
     flex-wrap: nowrap;
